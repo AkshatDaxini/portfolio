@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import pythonlogo from '../../assets/images/python-logo.png';
-import { faAndroid,faCss3, faHtml5, faJava, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faAndroid,faCss3, faHtml5, faJava, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
 
 const About = () =>{
@@ -46,7 +46,7 @@ const About = () =>{
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <img src={pythonlogo}  height = "150px" width="150px"/>
+              <img src={pythonlogo} alt="python"  height = "150px" width="150px"/>
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
