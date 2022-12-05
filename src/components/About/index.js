@@ -2,9 +2,6 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import pythonlogo from '../../assets/images/python-logo.png';
-import { faAndroid,faCss3, faHtml5, faJava, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
 
 const About = () =>{
