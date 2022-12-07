@@ -7,15 +7,16 @@
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
-
     }
 
     h1{
         color: white;
         font-size: 53px;
+        line-height: 60px;
         margin: 0;
         font-family: "Coolvetica";
         font-weight: 400;
+
 
         &::before{
             
@@ -87,7 +88,6 @@ h2{
     margin-left: 0;
     position: absolute;
     right: 0;
-    overflow: hidden;
 }
 
 .cubespinner {
@@ -103,13 +103,13 @@ h2{
         position: absolute;
         width: 200px;
         height: 200px;
-        border: 1px solid grey;
+        border: 1px solid black;
         background:rgb(255, 255, 255);
         font-size: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 0 0 20px 0px lightyellow;
+        box-shadow: 0 0 20px 0px cyan;
     }
 
     .face1 {

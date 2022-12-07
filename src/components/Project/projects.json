@@ -1,0 +1,59 @@
+[
+    {
+        "name":"Portolfio",
+        "year":"2022",
+        "lang":"ReactJS , Html ,CSS",
+        "desc":"Portfolio of Akshat Daxini",
+        "git":"https://github.com/AkshatDaxini/portfolio",
+        "demo":"https://akshat-daxini.netlify.app/"
+    },
+    {
+        "name":"Whizz",
+        "year":"2021",
+        "lang":"Flutter",
+        "desc":"Android app capable of sharing files between devices.Developed using flutter.",
+        "git":"https://github.com/AkshatDaxini/Whizz",
+        "demo":null
+    },
+    {
+        "name":"Recipes",
+        "year":"2021",
+        "lang":"Flutter",
+        "desc":"Application developed using flutter which is used to display receipes about few dishes.",
+        "git":"https://github.com/AkshatDaxini/receipes",
+        "demo":""
+    },
+    {
+        "name":"Expenses-Tracker",
+        "year":"2021",
+        "lang":"Flutter",
+        "desc":"A application developed using flutter which can be used to track the daily expenses of the user.",
+        "git":"https://github.com/AkshatDaxini/Expenses-Tracker",
+        "demo":"https://expenditure-manager.netlify.app/#/"
+    },
+    {
+        "name":"Inventory Management",
+        "year":"2020",
+        "lang":"Python, Django Framework",
+        "desc":"Simple Django application which performs CURD oprerations.",
+        "git":"https://github.com/AkshatDaxini/inventory-Managment",
+        "demo":null
+    },
+    {
+        "name":"Ask Me Anything",
+        "year":"2021",
+        "lang":"Flutter",
+        "desc":"Simple application developed using flutter which demonstrate the use of API.",
+        "git":"https://github.com/AkshatDaxini/inventory-Managment",
+        "demo":"https://i-know-everything.netlify.app/#/"
+    },
+    {
+        "name":"Student Faculty Chat System",
+        "year":"2018",
+        "lang":"VB.net",
+        "desc":"Desktop application which was capable of sharing files or messages between faculty and a student",
+        "git":null,
+        "demo":null
+    }
+    
+]

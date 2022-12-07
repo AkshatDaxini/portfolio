@@ -13,7 +13,7 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path ="about" element={<About/>}/>
         <Route path ="contact" element={<Contact/>}/>
-        <Route path ="project" element={<Project/>}/>
+        <Route path ="project" element={<Project projectyear={2012} projectname={"Whizz"} projectdesc={"File sharing betwwen device"}/>}/>
       </Route>
    </Routes>
   );

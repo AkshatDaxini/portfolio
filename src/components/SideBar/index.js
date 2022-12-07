@@ -14,7 +14,7 @@ import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
 const Sidebar = () => (
     <div className="nav-bar">
         <Link className="logo" to="/">
-            <img src={LogoS} alt="logo" height="20px" width="20px" />
+            <img src={LogoS} alt="logo"/>
             <span className='sub-logo'>Akshat</span>
         </Link>
 

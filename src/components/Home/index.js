@@ -24,17 +24,18 @@ const Home = () => {
                 <div className="text-zone">
                     <h1>
                         <span className={letterClass}>H</span>
-                        <span className={`${letterClass} _12`}>i</span>
+                        <span className={`${letterClass} _11`}>i</span>
                         <br />
-                        <span className={`${letterClass} _13`}>I</span>
-                        <span className={`${letterClass} _14`}>'m </span>
-                        <span className={`${letterClass} _15`}> </span>
+                        <span className={`${letterClass} _12`}>I</span>
+                        <span className={`${letterClass} _13`}>'m </span>
+                        <span className={`${letterClass} _14`}> </span>
 
-                        <AnimatedLetters letterClass={letterClass} strArray={nameArray} index={16} /><br />
+                        <AnimatedLetters letterClass={letterClass} strArray={nameArray} index={15} /><br />
                         <AnimatedLetters letterClass={letterClass} strArray={jobArray} index={16} /><br /></h1>
                     <h2>
                         Frontend Developer / JavaScript Expert</h2>
                     <Link to='/contact' className='flat-button'>Contact Me</Link>
+                    
 
                 </div>
                 <div className="stage-cube-cont">
