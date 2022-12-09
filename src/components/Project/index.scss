@@ -4,11 +4,32 @@
     left: 10%;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 100px;
 
 }
 
+.heading{
+    margin-top: 100px;
+    text-align: center;
+    transform: translateY(-50%);    
+    vertical-align: middle;
+    height: fit-content;
+
+    h1 {
+        font-size: 56px;
+        font-family: 'Coolvetica';
+        color: #ffd700;
+        font-weight: 400;
+    }
+}
+.text-animate-hover {
+    &:hover {
+        color: #fff;
+    }
+}
+
+
 .project-card {
+   
     position: relative;
     padding: 25px;
     margin: 15px;
@@ -17,6 +38,9 @@
     background-color:rgb(15, 15, 14);
     border: 1px white solid;
     border-radius: 10%;
+    opacity: 0;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
 }
 
 .lang-used{
@@ -71,6 +95,8 @@
         font-size: medium;
         font-weight: 600;
         height: 35px;
-
+    
     }
+
+
 }
