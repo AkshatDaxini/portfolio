@@ -18,13 +18,12 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault()
-
     emailjs
       .sendForm('service_q09q413', 'template_kzslu8e', form.current, 'TM4wMFc5waCzG51-U')
       .then(
         () => {
           alert('Message successfully sent!')
-          window.location.reload(false)
+          window.location.reload(true)
         },
         () => {
           alert('Failed to send the message, please try again')
