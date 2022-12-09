@@ -37,7 +37,7 @@ const Project = () => {
 
                                 <center>
                                     {element.git !== null && <a target="_blank" rel="noreferrer" href={element.git}>
-                                        <button><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /> Soruce</button>
+                                        <button><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /> Soursce</button>
                                     </a>}
 
                                     {element.demo !== null && <a target="_blank" rel="noreferrer" href={element.demo}>
